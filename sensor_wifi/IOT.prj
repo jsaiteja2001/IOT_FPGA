@@ -1,0 +1,6 @@
+vhdl work "UART.vhd"
+vhdl work "LCD.vhd"
+vhdl work "irmotor.vhd"
+vhdl work "gas_sensor.vhd"
+vhdl work "ADC.vhd"
+vhdl work "IOT.vhd"

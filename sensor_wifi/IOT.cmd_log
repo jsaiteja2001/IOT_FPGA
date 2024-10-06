@@ -1,0 +1,84 @@
+xst -intstyle ise -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -ifn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.xst" -ofn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc iot_con.ucf -p xc6slx9-tqg144-3 IOT.ngc IOT.ngd  
+map -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o IOT_map.ncd IOT.ngd IOT.pcf 
+par -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off IOT_map.ncd IOT.ncd IOT.pcf 
+trce -filter C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml IOT.twx IOT.ncd -o IOT.twr IOT.pcf -ucf iot_con.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f IOT.ut IOT.ncd 
+xst -intstyle ise -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -ifn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.xst" -ofn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc iot_con.ucf -p xc6slx9-tqg144-3 IOT.ngc IOT.ngd  
+map -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o IOT_map.ncd IOT.ngd IOT.pcf 
+par -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off IOT_map.ncd IOT.ncd IOT.pcf 
+trce -filter C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml IOT.twx IOT.ncd -o IOT.twr IOT.pcf -ucf iot_con.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f IOT.ut IOT.ncd 
+xst -intstyle ise -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -ifn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.xst" -ofn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc iot_con.ucf -p xc6slx9-tqg144-3 IOT.ngc IOT.ngd  
+map -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o IOT_map.ncd IOT.ngd IOT.pcf 
+par -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off IOT_map.ncd IOT.ncd IOT.pcf 
+trce -filter C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml IOT.twx IOT.ncd -o IOT.twr IOT.pcf -ucf iot_con.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f IOT.ut IOT.ncd 
+xst -intstyle ise -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -ifn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.xst" -ofn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc iot_con.ucf -p xc6slx9-tqg144-3 IOT.ngc IOT.ngd  
+map -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o IOT_map.ncd IOT.ngd IOT.pcf 
+par -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off IOT_map.ncd IOT.ncd IOT.pcf 
+trce -filter C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml IOT.twx IOT.ncd -o IOT.twr IOT.pcf -ucf iot_con.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f IOT.ut IOT.ncd 
+xst -intstyle ise -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -ifn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.xst" -ofn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.syr" 
+xst -intstyle ise -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -ifn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.xst" -ofn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.syr" 
+xst -intstyle ise -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -ifn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.xst" -ofn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.syr" 
+xst -intstyle ise -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -ifn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.xst" -ofn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.syr" 
+xst -intstyle ise -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -ifn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.xst" -ofn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc iot_con.ucf -p xc6slx9-tqg144-3 IOT.ngc IOT.ngd  
+xst -intstyle ise -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -ifn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.xst" -ofn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.syr" 
+xst -intstyle ise -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -ifn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.xst" -ofn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.syr" 
+xst -intstyle ise -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -ifn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.xst" -ofn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.syr" 
+xst -intstyle ise -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -ifn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.xst" -ofn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.syr" 
+xst -intstyle ise -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -ifn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.xst" -ofn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc iot_con.ucf -p xc6slx9-tqg144-3 IOT.ngc IOT.ngd  
+map -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o IOT_map.ncd IOT.ngd IOT.pcf 
+par -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off IOT_map.ncd IOT.ncd IOT.pcf 
+trce -filter C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml IOT.twx IOT.ncd -o IOT.twr IOT.pcf -ucf iot_con.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f IOT.ut IOT.ncd 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f IOT.ut IOT.ncd 
+xst -intstyle ise -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -ifn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.xst" -ofn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc iot_con.ucf -p xc6slx9-tqg144-3 IOT.ngc IOT.ngd  
+map -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o IOT_map.ncd IOT.ngd IOT.pcf 
+par -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off IOT_map.ncd IOT.ncd IOT.pcf 
+trce -filter C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml IOT.twx IOT.ncd -o IOT.twr IOT.pcf -ucf iot_con.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f IOT.ut IOT.ncd 
+xst -intstyle ise -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -ifn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.xst" -ofn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc iot_con.ucf -p xc6slx9-tqg144-3 IOT.ngc IOT.ngd  
+map -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o IOT_map.ncd IOT.ngd IOT.pcf 
+par -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off IOT_map.ncd IOT.ncd IOT.pcf 
+trce -filter C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml IOT.twx IOT.ncd -o IOT.twr IOT.pcf -ucf iot_con.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f IOT.ut IOT.ncd 
+xst -intstyle ise -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -ifn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.xst" -ofn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc iot_con.ucf -p xc6slx9-tqg144-3 IOT.ngc IOT.ngd  
+map -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o IOT_map.ncd IOT.ngd IOT.pcf 
+par -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off IOT_map.ncd IOT.ncd IOT.pcf 
+trce -filter C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml IOT.twx IOT.ncd -o IOT.twr IOT.pcf -ucf iot_con.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f IOT.ut IOT.ncd 
+xst -intstyle ise -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -ifn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.xst" -ofn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc iot_con.ucf -p xc6slx9-tqg144-3 IOT.ngc IOT.ngd  
+map -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o IOT_map.ncd IOT.ngd IOT.pcf 
+par -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off IOT_map.ncd IOT.ncd IOT.pcf 
+trce -filter C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml IOT.twx IOT.ncd -o IOT.twr IOT.pcf -ucf iot_con.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f IOT.ut IOT.ncd 
+xst -intstyle ise -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -ifn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.xst" -ofn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.syr" 
+xst -intstyle ise -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -ifn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.xst" -ofn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc iot_con.ucf -p xc6slx9-tqg144-3 IOT.ngc IOT.ngd  
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc iot_con.ucf -p xc6slx9-tqg144-3 IOT.ngc IOT.ngd  
+map -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o IOT_map.ncd IOT.ngd IOT.pcf 
+par -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off IOT_map.ncd IOT.ncd IOT.pcf 
+trce -filter C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml IOT.twx IOT.ncd -o IOT.twr IOT.pcf -ucf iot_con.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f IOT.ut IOT.ncd 
+xst -intstyle ise -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -ifn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.xst" -ofn "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/IOT.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc iot_con.ucf -p xc6slx9-tqg144-3 IOT.ngc IOT.ngd  
+map -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o IOT_map.ncd IOT.ngd IOT.pcf 
+par -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off IOT_map.ncd IOT.ncd IOT.pcf 
+trce -filter C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml IOT.twx IOT.ncd -o IOT.twr IOT.pcf -ucf iot_con.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f IOT.ut IOT.ncd 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc iot_con.ucf -p xc6slx9-tqg144-3 IOT.ngc IOT.ngd  
+map -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o IOT_map.ncd IOT.ngd IOT.pcf 
+par -filter "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off IOT_map.ncd IOT.ncd IOT.pcf 
+trce -filter C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/iseconfig/filter.filter -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml IOT.twx IOT.ncd -o IOT.twr IOT.pcf -ucf iot_con.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f IOT.ut IOT.ncd 

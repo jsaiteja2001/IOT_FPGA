@@ -1,0 +1,5 @@
+vhdl isim_temp "UART.vhd"
+vhdl isim_temp "LCD.vhd"
+vhdl isim_temp "gas_sensor.vhd"
+vhdl isim_temp "ADC.vhd"
+vhdl isim_temp "IOT.vhd"

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/gas_sensor_isim_beh.exe" -prj "C:/Users/ashok/OneDrive/Documents/xilinx/sensor_wifi/gas_sensor_beh.prj" "work.gas_sensor" 

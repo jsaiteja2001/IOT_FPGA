@@ -1,0 +1,28 @@
+Command line:
+   gas_sensor_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51236
+
+Sun Mar 10 19:48:07 2024
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 5156.07 Meg
+
+ Total Signals          : 2
+ Total Nets             : 16
+ Total Signal Drivers   : 1
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 1
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 376
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 5156.07 Meg
+
+Sun Mar 10 19:48:17 2024
+
